@@ -1,4 +1,4 @@
-// src/components/Login.js
+// src/components/Login.jsx
 import React, { useState } from 'react';
 import { auth } from '../services/firebase';
 import { Link, useHistory } from 'react-router-dom';
@@ -42,3 +42,4 @@ const Login = () => {
 };
 
 export default Login;
+

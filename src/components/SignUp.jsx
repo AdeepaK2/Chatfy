@@ -1,4 +1,4 @@
-// src/components/SignUp.js
+// src/components/SignUp.jsx
 import React, { useState } from 'react';
 import { auth, firestore } from '../services/firebase';
 import { Link, useHistory } from 'react-router-dom';
@@ -53,4 +53,5 @@ const SignUp = () => {
 };
 
 export default SignUp;
+
 
